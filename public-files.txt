@@ -1,0 +1,86 @@
+# Production artifact allowlist. Each entry is a path relative to public/.
+# build-public.sh resolves HTML from src/pages/, CSS from src/styles/,
+# JavaScript from src/js/, and all other files from static/.
+
+# Canonical top-level pages
+index.html
+privacy.html
+use-cases.html
+
+# Special public utility pages
+404.html
+
+# Runtime assets
+favicon.svg
+favicon-32x32.png
+apple-touch-icon.png
+assets/social/utana-social-preview.png
+styles.css
+navy.css
+use-cases.css
+site.js
+
+# Search discovery
+robots.txt
+sitemap.xml
+
+# Canonical blog articles
+blog/business-automation.html
+blog/first-workflow.html
+blog/human-judgment.html
+
+# Substantive use-case articles linked from use-cases.html
+use-cases/campaign-coordination.html
+use-cases/clinic-administration.html
+use-cases/clinic-journey.html
+use-cases/department-reporting.html
+use-cases/document-operations.html
+use-cases/employee-requests.html
+use-cases/enquiry-to-delivery.html
+use-cases/marketing-production.html
+use-cases/procurement-coordination.html
+use-cases/recruitment-coordination.html
+use-cases/restaurant-locations.html
+use-cases/restaurant-operations.html
+use-cases/sales-enquiries.html
+use-cases/sales-proposals.html
+use-cases/support-investigation.html
+use-cases/uae-real-estate.html
+
+# Images used by canonical pages
+assets/team/aleksei-360.avif
+assets/team/aleksei-360.jpg
+assets/team/aleksei-720.avif
+assets/team/aleksei-720.jpg
+assets/team/aleksei-960.avif
+assets/team/aleksei-960.jpg
+assets/team/fatmah-360.avif
+assets/team/fatmah-360.jpg
+assets/team/fatmah-720.avif
+assets/team/fatmah-720.jpg
+assets/team/fatmah-960.avif
+assets/team/fatmah-960.jpg
+assets/team/femina-360.avif
+assets/team/femina-360.jpg
+assets/team/femina-720.avif
+assets/team/femina-720.jpg
+assets/team/femina-960.avif
+assets/team/femina-960.jpg
+assets/team/hajer-360.avif
+assets/team/hajer-360.jpg
+assets/team/hajer-720.avif
+assets/team/hajer-720.jpg
+assets/team/hajer-960.avif
+assets/team/hajer-960.jpg
+assets/team/harishma-360.avif
+assets/team/harishma-360.jpg
+assets/team/harishma-720.avif
+assets/team/harishma-720.jpg
+assets/team/harishma-960.avif
+assets/team/harishma-960.jpg
+assets/team/pavel-360.avif
+assets/team/pavel-360.jpg
+assets/team/pavel-720.avif
+assets/team/pavel-720.jpg
+assets/team/pavel-960.avif
+assets/team/pavel-960.jpg
